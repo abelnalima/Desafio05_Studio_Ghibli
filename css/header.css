@@ -1,0 +1,58 @@
+header {
+    width: 100%;
+    height: 165px;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 100%;
+}
+
+.header-logo {
+    padding-top: 41px;
+    padding-left: 165px;
+}
+
+.header-logo img {
+    width: 100px;
+    height: 48.11px;
+}
+
+.header-social-icons {
+    display: flex;
+    justify-content: flex-end;
+
+    padding-top: 54px;
+    margin-right: 185px;
+}
+
+.icon-twitter {
+    margin-right: 30px;
+}
+
+.icon-instagram {
+    margin-right: 30px;
+}
+
+.icon-facebook {
+    margin-right: 30px;
+}
+
+.icon-facebook:hover svg path {
+    stroke: var(--icon-color-fcbk);
+}
+
+.icon-instagram:hover svg path {
+    stroke: var(--icon-color-inst);
+}
+
+.icon-twitter:hover svg path {
+    stroke: var(--icon-color-twtr);
+}
+
+.icon-youtube:hover svg path {
+    stroke: var(--icon-color-yutb);
+}
