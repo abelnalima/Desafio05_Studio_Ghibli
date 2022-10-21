@@ -56,3 +56,13 @@ header {
 .icon-youtube:hover svg path {
     stroke: var(--icon-color-yutb);
 }
+
+@media (max-width: 1024px) {
+    .header-logo {
+        padding-left: 80px;
+    }
+
+    .header-social-icons {
+        margin-right: 100px;
+    }
+}
