@@ -9,3 +9,17 @@ body {
 
     background: var(--gradient-default);
 }
+
+@media (max-width: 768px) {
+    body {
+        width: 100vw;
+        height: 1000px;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        width: 100vw;
+        height: 736px;
+    }
+}

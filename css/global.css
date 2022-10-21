@@ -63,7 +63,3 @@
     --icon-color-twtr: #1DA1F2;
     --icon-color-yutb: #FF0000;
 }
-
-main {
-    color: var(--white);
-}
